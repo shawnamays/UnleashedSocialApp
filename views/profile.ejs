@@ -73,8 +73,8 @@
 OF A GIRL HOLDING A DOG ON THE LEFT SIDE-->
       <div class="userUploadForm">
           <div>
-              <p><strong>User Name</strong>: <%= user.userName %></p>
-              <p><strong>Email</strong>: <%= user.email %></p>
+              <p class="profileText"><strong>My Unleashed Username</strong>: <div class="usernameText"><%= user.userName %></div></p>
+              <p class="profileText"><strong>Account Email</strong>:<div class="emailText"><%= user.email %></div></p>
 
               <div class="theLogoutContainer">
 
@@ -115,14 +115,17 @@ OF A GIRL HOLDING A DOG ON THE LEFT SIDE-->
         <img src="https://images.unsplash.com/photo-1537151608828-ea2b11777ee8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1594&q=80">
       </div>
       <div class="userPhotoFeed">
+
         <div class="thePhotoFeed">
-          <h2>My Photo Gallery</h2>
+          <h2 class="livePhotoTitle">My Live Photo Collection</h2>
         <ul class="row list-unstyled">
         <% for(var i=0; i<posts.length; i++) {%>
           <li class="col-6 justify-content-between mt-5">
+           <div class="polaroid photo"> 
             <a href="/post/<%= posts[i]._id%>">
               <img class="img-fluid" src="<%= posts[i].image%>">
             </a>
+            </div>
           </li>
         <% } %>
         </ul>

@@ -6,7 +6,7 @@
 
 body {
     background-image: url(https://wallpaperaccess.com/full/3551857.jpg);
-    background-repeat: no-repeat;
+    background-repeat: repeat;
 }
 
 .uploadButton {
@@ -31,6 +31,8 @@ body {
 
     height: 60px;
     width: 200px;
+    
+  
   
    
     
@@ -171,6 +173,10 @@ body {
 .userUploadForm{
 
     width: 50%;
+    color: rgb(33, 25, 10);
+   
+    font-size: 15px;
+    font-family: 'DynaPuff', cursive;
 }
 .userPhotoFeed{
 
@@ -181,6 +187,20 @@ body {
 .img-fluid {
    
     height: 300px;
+    background: #ffffff;
+    display: inline-block;
+    margin: 55px 75px 30px;
+    padding: 15px 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    -webkit-transition: all .20s linear;
+    -moz-transition: all .20s linear;
+    transition: all .20s linear;
+    z-index: 0;
+    position: relative;
 }
 .theTitle .titleLink {
     color: rgb(33, 25, 10);
@@ -188,6 +208,27 @@ body {
     font-size: 100px;
     font-family: 'DynaPuff', cursive;
 
+}
+
+.livePhotoTitle {
+
+  color: rgb(106, 36, 6);
+  text-decoration: none;
+  font-size: 60px;
+  margin-left: 21%;
+  font-family: 'DynaPuff', cursive;
+}
+.profileText {
+  color: rgb(106, 36, 6);
+  font-size: 30px;
+}
+
+.usernameText {
+  color: whitesmoke;
+}
+
+.emailText {
+  color: whitesmoke;
 }
 .rightSidePhoto {
     width: 50%;
@@ -198,7 +239,8 @@ body {
 }
 
 .thePhotoFeed{
-    background-color: red;
-    /* margin-top:100%;
-    margin-right: 60%; */
+   
+   margin-top: 10%;
 }
+
+
