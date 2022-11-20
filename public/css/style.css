@@ -163,6 +163,11 @@ body {
 
 
 }
+
+.img-fluid {
+   
+    height: 300px;
+}
 .theTitle .titleLink {
     color: rgb(33, 25, 10);
     text-decoration: none;
