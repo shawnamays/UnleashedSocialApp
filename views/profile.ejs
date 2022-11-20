@@ -75,8 +75,19 @@ OF A GIRL HOLDING A DOG ON THE LEFT SIDE-->
           <div>
               <p><strong>User Name</strong>: <%= user.userName %></p>
               <p><strong>Email</strong>: <%= user.email %></p>
-              <a href="/logout" class="col-3 btn btn-primary">Logout</a>
+
+              <div class="theLogoutContainer">
+
+                <a href="/logout" class="logoutButton">
+                  <img src="https://i.ibb.co/0KMjqX1/logoutpost-300-200-px.png">
+                </a>
+
+              </div>
           </div>
+          
+     
+
+
           <div class="mt-5">
             <h2>Create a New Post</h2>
             <form action="/post/createPost" enctype="multipart/form-data" method="POST">
