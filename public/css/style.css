@@ -9,6 +9,19 @@ body {
     background-repeat: no-repeat;
 }
 
+.uploadButton {
+   background-color: transparent;
+    height: 300px;
+    width: 300px;
+    border: none;
+}
+
+.uploadButton img {
+   
+    height: 300px;
+    width: 300px;
+}
+
 
 /* create the paw prints */
 .pad {
@@ -150,7 +163,13 @@ body {
 
 
 }
+.theTitle .titleLink {
+    color: rgb(33, 25, 10);
+    text-decoration: none;
+    font-size: 100px;
+    font-family: 'DynaPuff', cursive;
 
+}
 .rightSidePhoto {
     width: 50%;
 }
